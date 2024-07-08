@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(169, 212, 212);
+    padding:10px;
+}
+.navbar{
+    /* background-color: red; */
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 10px;
+    min-height: 50px;
+    padding:10px;
+}
+.dropdown-parent{
+    text-align:center;
+    /* background-color: blueviolet; */
+    display:grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+.dropdown{
+    text-align: center;
+    /* background-color: pink; */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.register{
+    justify-self: end;
+}
+.login{
+    margin-right:20px;
+    float:left;
+}
+.get-started{
+    float:right;
+}
+.body{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    min-height:500px;
+    max-height: auto;
+}
+.left{
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: brown;
+    background-image: url('bg-1.jpg');
+    background-size: cover;
+}
+.right{
+    padding: 20px;
+    border-radius:35px;
+    background-color: white;
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    min-height:100px;
+    max-height:auto;
+    padding:20px;
+    padding-top:40px;
+    color:gray;
+}
+.foot-right{
+    /* background-color: aqua; */
+}
+.foot-left{
+    /* background-color: orange; */
+    font-size:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+select{
+    border:none;
+}
+button{
+    border-radius:5px;
+}
+p{
+    font-size:20px;
+}
+.logo{
+    font-size:25px;
+}
