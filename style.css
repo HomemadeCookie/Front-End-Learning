@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(169, 212, 212);
+    background-color:rgb(229, 230, 230);
     padding:10px;
 }
 .navbar{
@@ -17,7 +17,9 @@ body{
     grid-template-columns: 1fr 8fr 1fr;
 }
 .dropdown{
+    padding:5;
     text-align: center;
+    padding:4px;
     /* background-color: pink; */
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -28,9 +30,11 @@ body{
 .login{
     margin-right:20px;
     float:left;
+    padding:4px;
 }
 .get-started{
     float:right;
+    padding:4px;
 }
 .body{
     display:grid;
@@ -59,9 +63,6 @@ body{
     padding-top:40px;
     color:gray;
 }
-.foot-right{
-    /* background-color: aqua; */
-}
 .foot-left{
     /* background-color: orange; */
     font-size:20px;
@@ -79,4 +80,17 @@ p{
 }
 .logo{
     font-size:25px;
+}
+select{
+    background-color: transparent;
+}
+input{
+    padding:8px;
+    border-radius: 8px;
+}
+.submit-1{
+    background-color: black;
+    color:white;
+    border:none;
+    padding:8px;
 }
